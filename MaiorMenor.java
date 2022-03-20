@@ -10,16 +10,12 @@ class MaiorMenor{
             if (idade >= 18){
                 jop.showMessageDialog(null, "É de maior");
             }
-
             else{
                 jop.showMessageDialog(null, "É de menor");
             }
-            
         }
-
         else{
             jop.showMessageDialog(null, "É de nada, pare de brincar comigo!");
         }
-
     }    
 }
