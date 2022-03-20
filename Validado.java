@@ -10,16 +10,12 @@ class Validado{
             if (idade >= 18){
                 jop.showMessageDialog(null, "É de maior, entrada valida");
             }
-
             else{
                 jop.showMessageDialog(null, "É de menor, entrada invalida");
             }
-            
         }
-
         else{
             jop.showMessageDialog(null, "invalido");
         }
-
     }    
 }
